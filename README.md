@@ -8,7 +8,7 @@ El sistema prioriza la **soberanía absoluta de la información**. Al ejecutar m
 
 Para el entorno de desarrollo y pruebas, el sistema está dimensionado y optimizado para correr el siguiente modelo base:
 * **Modelo:** `deepseek-r1:14b` (Modelo de razonamiento destilado, ideal para lógica jurídica compleja y análisis de declaraciones).
-* **Entorno:** Desplegado de forma nativa mediante **Ollama** dentro de una máquina virtual aislada (Debian Linux bajo KVM/QEMU) conectada a un puente de red local (`br-labLAN`).
+* **Entorno:** Desplegado de forma nativa mediante **Ollama** dentro de una máquina virtual aislada (Debian Linux bajo KVM/QEMU) conectada a un puente de red local (`bridge`).
 
 ---
 ## 💻 Dimensionamiento de la Máquina Virtual
